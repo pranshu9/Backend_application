@@ -55,7 +55,7 @@ User Signup (POST /auth/signup): Allows users to register by providing a usernam
 User Signin (POST /auth/signin): Allows users to sign in by providing their email and password. It returns a JWT token upon successful authentication.
 ## Getting Started
 
-1-Clone the repository.
+1-Clone the repository.  
 2-Install dependencies using npm install.(npm install express mongoose body-parser jsonwebtoken bcrypt)
 3-Set up a MongoDB database and Update the connection string in your index.js file to connect to MongoDB instance:
   To obtain the connection string for MongoDB, you'll need to follow these steps:
@@ -83,6 +83,11 @@ Copy the connection string
 4-Run your Node.js application: node index.js
 Note- Also install uuid library which is used in notes.js file.
 Open the terminal and run the command: npm install uuid
+5-Test Endpoints with Postman
+Use Postman to test your API endpoints.
+Create a Postman collection to organize your requests.
+6-Share Postman Collection
+Export your Postman collection and share it with others who may want to test your API.
 
 
 
