@@ -89,6 +89,8 @@ Create a Postman collection to organize your requests.  \
 6-Share Postman Collection
 Export your Postman collection and share it with others who may want to test your API.
 
+##Test your endpoints using Postman
+
 
 
 
