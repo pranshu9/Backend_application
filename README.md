@@ -124,15 +124,15 @@ Send a POST request to http://localhost:5010/notes with the following JSON paylo
 Include the Authorization header(type - Bearer token) with the value <your_token>.  \
 Step 6:Update Note  \
 
-Send a PUT request to http://localhost:5010/notes/<note_id> with the following JSON payload:  \
+Send a PUT request to http://localhost:5010/notes/<note_id> with the following JSON payload:  
 {
   "title": "Updated Note Title",
   "content": "Updated Note Content"
-}  \
-Step 7:Search request   \
-Send a GET request to http://localhost:5010/notes/search/<keyword> where <keyword> is the title keyword you want to search for.  \
-Step 8:Delete Node  \
-Send a DELETE request to http://localhost:5010/notes/<note_id> with the Authorization header.  \
+}  
+Step 7:Search request   
+Send a GET request to http://localhost:5010/notes/search/<keyword> where <keyword> is the title keyword you want to search for.  
+Step 8:Delete Node  
+Send a DELETE request to http://localhost:5010/notes/<note_id> with the Authorization header.  
 
 
 
