@@ -58,34 +58,34 @@ User Signin (POST /auth/signin): Allows users to sign in by providing their emai
 1-Clone the repository.  \
 2-Install dependencies using npm install.(npm install express mongoose body-parser jsonwebtoken bcrypt)  \
 3-Set up a MongoDB database and Update the connection string in your index.js file to connect to MongoDB instance:
-  To obtain the connection string for MongoDB, you'll need to follow these steps:\
+  To obtain the connection string for MongoDB, you'll need to follow these steps:  \
 
 ->Set Up a MongoDB Database:
 
 If you don't have MongoDB installed locally, you can use a cloud-based solution like MongoDB Atlas.
 Sign up for an account on MongoDB Atlas.
-Create a new cluster (a cluster is a group of MongoDB servers).\
+Create a new cluster (a cluster is a group of MongoDB servers).  \
 ->Create a Database:
 
 Once your cluster is set up, create a new database.
-You can name the database based on your project, such as "notes_app."\
+You can name the database based on your project, such as "notes_app."  \
 ->Create a Database User:
 
 In MongoDB Atlas, navigate to your cluster and click on "Database Access" under the Security section.
-Add a new database user with the necessary permissions. Remember the username and password you set for this user.\
+Add a new database user with the necessary permissions. Remember the username and password you set for this user.  \
 ->Get the Connection String:
 
 In MongoDB Atlas, go to the "Clusters" section and click on "Connect."
 
 You'll be presented with different connection options. Choose "Connect Your Application."
 
-Copy the connection string\
+Copy the connection string  \
 4-Run your Node.js application: node index.js
 Note- Also install uuid library which is used in notes.js file.
-Open the terminal and run the command: npm install uuid\
+Open the terminal and run the command: npm install uuid  \
 5-Test Endpoints with Postman
 Use Postman to test your API endpoints.
-Create a Postman collection to organize your requests.\
+Create a Postman collection to organize your requests.  \
 6-Share Postman Collection
 Export your Postman collection and share it with others who may want to test your API.
 
