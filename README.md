@@ -98,7 +98,7 @@ If you don't have Postman installed, you can download it from the official websi
 Step 2: Open Postman  \
 Open the Postman application.  \
 
-Step 3: Sign Up  \
+Step 3: Sign Up  
 
 Create a new request and send a POST request to http://localhost:5010/auth/signup(use your port number in place of "5010") with the following JSON payload in the request body:  \
 {
