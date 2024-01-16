@@ -89,8 +89,50 @@ Create a Postman collection to organize your requests.  \
 6-Share Postman Collection
 Export your Postman collection and share it with others who may want to test your API.
 
-## Test your endpoints using Postman
+## Test your endpoints using Postman  \
+Start the Server:  \
+Make sure your Node.js server is running. You can start it by running the command "node index.js" in the terminal inside your project folder.  \
+Step 1: Install Postman  \
+If you don't have Postman installed, you can download it from the official website.  \
 
+Step 2: Open Postman  \
+Open the Postman application.  \
+
+Step 3: Sign Up  \
+
+Create a new request and send a POST request to http://localhost:5010/auth/signup(use your port number in place of "5010") with the following JSON payload in the request body:  \
+{
+  "username": "your_username",
+  "email": "your_email@example.com",
+  "password": "your_password"
+}  \
+Step 4: Sign In  \
+
+Send a POST request to http://localhost:5010/auth/signin with the JSON payload:   \
+{
+  "email": "your_email@example.com",
+  "password": "your_password"
+}  \
+Copy the token from the response.  \
+Step 5: Create a Note:  \
+
+Send a POST request to http://localhost:5010/notes with the following JSON payload:  \
+{
+  "title": "Note Title",
+  "content": "Note Content"
+}  \
+Include the Authorization header(type - Bearer token) with the value <your_token>.  \
+Step 6:Update Note  \
+
+Send a PUT request to http://localhost:5010/notes/<note_id> with the following JSON payload:  \
+{
+  "title": "Updated Note Title",
+  "content": "Updated Note Content"
+}  \
+Step 7:Search request   \
+Send a GET request to http://localhost:5010/notes/search/<keyword> where <keyword> is the title keyword you want to search for.  \
+Step 8:Delete Node  \
+Send a DELETE request to http://localhost:5010/notes/<note_id> with the Authorization header.  \
 
 
 
