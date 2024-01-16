@@ -56,7 +56,7 @@ User Signin (POST /auth/signin): Allows users to sign in by providing their emai
 ## Getting Started
 
 1-Clone the repository.  \
-2-Install dependencies using npm install.(npm install express mongoose body-parser jsonwebtoken bcrypt)\
+2-Install dependencies using npm install.(npm install express mongoose body-parser jsonwebtoken bcrypt)  \
 3-Set up a MongoDB database and Update the connection string in your index.js file to connect to MongoDB instance:
   To obtain the connection string for MongoDB, you'll need to follow these steps:\
 
